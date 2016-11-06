@@ -1,0 +1,9 @@
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\bin\Debug\Battleship.Tests.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\bin\Debug\Battleship.Tests.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\bin\Debug\BattleShip.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\bin\Debug\BattleShip.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\obj\Debug\Battleship.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\obj\Debug\Battleship.Tests.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\Battleship.Tests\obj\Debug\Battleship.Tests.pdb

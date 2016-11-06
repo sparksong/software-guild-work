@@ -1,0 +1,10 @@
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\SGBank\SGBank.Models\bin\Debug\SGBank.Models.dll
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\SGBank\SGBank.Models\bin\Debug\SGBank.Models.pdb
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\SGBank\SGBank.Models\obj\Debug\SGBank.Models.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\SGBank\SGBank.Models\obj\Debug\SGBank.Models.dll
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\SGBank\SGBank.Models\obj\Debug\SGBank.Models.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\SGBank\SGBank.Models\bin\Debug\SGBank.Models.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\SGBank\SGBank.Models\bin\Debug\SGBank.Models.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\SGBank\SGBank.Models\obj\Debug\SGBank.Models.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\SGBank\SGBank.Models\obj\Debug\SGBank.Models.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\SGBank\SGBank.Models\obj\Debug\SGBank.Models.pdb

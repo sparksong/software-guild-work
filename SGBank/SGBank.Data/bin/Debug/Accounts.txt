@@ -1,0 +1,7 @@
+AccountNumber|Name|Balance|Type
+11111|Free Customer|50|F
+22222|Basic Customer|550|B
+33333|Premium Customer|1000|P
+66666|Billy Joel|200|F
+24445|Steve Irwin|700|B
+99999|Nate Ruess|149000|P

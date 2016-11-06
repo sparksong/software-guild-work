@@ -1,0 +1,40 @@
+﻿@model HRPortal.WebUI.ViewModels.PolicyListVM
+
+@{
+    ViewBag.Title = "ManageCategories";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Categories</h4>
+        <p class="text-info">(Only categories not containing policies can be deleted.)</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <table class="table table-striped" style="width: auto;">
+            <thead>
+                <tr>
+                    <th>Category Name</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model.Categories)
+                {
+                    <tr>
+                        <td>@category.CategoryName</td>
+                        <td></td>
+                        <td>
+                            @if (category.IsDeletable)
+                            {
+                                @Html.ActionLink("Delete", "DeleteCategory", "Policy", new { id = category.CategoryId }, null)
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.ActionLink("Add Category", "AddCategory", "Policy", null, new { @class = "btn btn-primary" })
+    </div>
+</div>

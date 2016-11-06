@@ -1,0 +1,16 @@
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.CLI.exe.config
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.CLI.exe
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.CLI.pdb
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.BLL.dll
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\obj\Debug\RockPaperScissorsV2.CLI.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\obj\Debug\RockPaperScissorsV2.CLI.exe
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.CLI\obj\Debug\RockPaperScissorsV2.CLI.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.CLI.exe.config
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\obj\Debug\RockPaperScissorsV2.CLI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\obj\Debug\RockPaperScissorsV2.CLI.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\obj\Debug\RockPaperScissorsV2.CLI.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.CLI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.CLI.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.CLI\bin\Debug\RockPaperScissorsV2.BLL.pdb

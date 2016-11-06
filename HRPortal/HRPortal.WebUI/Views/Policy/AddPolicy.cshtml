@@ -1,0 +1,37 @@
+﻿@model HRPortal.WebUI.ViewModels.PolicyListVM
+
+@{
+    ViewBag.Title = "AddPolicy";
+}
+
+<h4>Add Policy</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="row">
+            <div class="col-xs-12">
+                @using (Html.BeginForm())
+                {
+                    <div class="form-group">
+                        <label>Policy Name: </label>
+                        @Html.TextBoxFor(p => p.Policy.PolicyName, new { @class = "form-control", placeholder = "Policy" })
+                    </div>
+                    <div class="form-group">
+                        <label>Category: </label>
+                        @Html.DropDownListFor(p => p.Policy.PolicyCategory, Model.Categories.Select(c => new SelectListItem { Value = c.CategoryId.ToString(), Text = c.CategoryName }), new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Policy Details: </label>
+                        @Html.TextAreaFor(p => p.Policy.Content, new { @class = "form-control", placeholder = "Enter policy content" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Policy</button>
+                        @Html.ActionLink("Cancel Add", "ManagePolicies", "Policy", null, new { @class = "btn btn-info" })
+                }
+            </div>
+        </div>
+    </div>
+}

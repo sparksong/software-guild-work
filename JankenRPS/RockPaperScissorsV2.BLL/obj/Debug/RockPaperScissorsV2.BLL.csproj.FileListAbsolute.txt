@@ -1,0 +1,10 @@
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.BLL\bin\Debug\RockPaperScissorsV2.BLL.dll
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.BLL\bin\Debug\RockPaperScissorsV2.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.BLL\obj\Debug\RockPaperScissorsV2.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.BLL\obj\Debug\RockPaperScissorsV2.BLL.dll
+C:\Users\apprentice\Documents\Repositories\mpls-dotnet-september-2016-materials\RockPaperScissorsV2\RockPaperScissorsV2.BLL\obj\Debug\RockPaperScissorsV2.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.BLL\bin\Debug\RockPaperScissorsV2.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.BLL\bin\Debug\RockPaperScissorsV2.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.BLL\obj\Debug\RockPaperScissorsV2.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.BLL\obj\Debug\RockPaperScissorsV2.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\RockPaperScissorsV2\RockPaperScissorsV2.BLL\obj\Debug\RockPaperScissorsV2.BLL.pdb

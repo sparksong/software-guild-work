@@ -1,0 +1,9 @@
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\bin\Debug\FlooringMaster.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\bin\Debug\FlooringMaster.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\obj\Debug\FlooringMaster.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\obj\Debug\FlooringMaster.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\obj\Debug\FlooringMaster.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\bin\Debug\FlooringMastery.Data.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\bin\Debug\FlooringMastery.Models.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\bin\Debug\FlooringMastery.Data.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMaster.BLL\bin\Debug\FlooringMastery.Models.pdb

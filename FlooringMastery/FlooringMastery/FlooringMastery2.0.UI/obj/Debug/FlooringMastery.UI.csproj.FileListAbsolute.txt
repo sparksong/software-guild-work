@@ -1,0 +1,15 @@
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\obj\Debug\FlooringMastery.UI.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery2.0.UI.exe.config
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery2.0.UI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery2.0.UI.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\obj\Debug\FlooringMastery2.0.UI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\obj\Debug\FlooringMastery2.0.UI.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery.Data.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery.Models.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery.Data.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMaster.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMaster.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\Done\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\bin\Debug\FlooringMastery2.0.UI.exe.config
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\Done\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\obj\Debug\FlooringMastery2.0.UI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\Done\FlooringMastery\FlooringMastery\FlooringMastery2.0.UI\obj\Debug\FlooringMastery2.0.UI.pdb

@@ -1,0 +1,5 @@
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.BLL\bin\Debug\BattleShip.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.BLL\bin\Debug\BattleShip.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.BLL\obj\Debug\BattleShip.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.BLL\obj\Debug\BattleShip.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.BLL\obj\Debug\BattleShip.BLL.csprojResolveAssemblyReference.cache

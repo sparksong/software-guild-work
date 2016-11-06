@@ -1,0 +1,2 @@
+Order#|Name|State|OrderDate|Area|Type|ProductCost|LaborCost|Tax|Total
+1|Acme, Inc.|PA|10/10/2010|44|Tile|154.00|182.60|22.72|359.32

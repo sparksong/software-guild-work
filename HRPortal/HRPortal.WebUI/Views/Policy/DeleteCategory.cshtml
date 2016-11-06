@@ -1,0 +1,23 @@
+﻿@model HRPortal.Models.Category
+
+@{
+    ViewBag.Title = "DeleteCategory";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Delete Category</h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(c => c.CategoryId)
+            <p>Are you sure that you wish to delete the category "@Html.DisplayFor(c => c.CategoryName)"?</p>
+            <hr />
+            <button type="submit" class="btn btn-danger">Delete</button>
+            @Html.ActionLink("Cancel Delete", "ManageCategories", "Policy", null, new { @class = "btn btn-info" })
+        }
+    </div>
+</div>

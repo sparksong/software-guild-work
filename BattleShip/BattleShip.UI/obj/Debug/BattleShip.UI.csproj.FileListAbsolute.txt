@@ -1,0 +1,11 @@
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\bin\Debug\BattleShip.UI.exe.config
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\bin\Debug\BattleShip.UI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\bin\Debug\BattleShip.UI.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\obj\Debug\BattleShip.UI.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\obj\Debug\BattleShip.UI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\obj\Debug\BattleShip.UI.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\bin\Debug\BattleShip.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\BattleShip\BattleShip.UI\bin\Debug\BattleShip.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\Done\BattleShip\BattleShip.UI\bin\Debug\BattleShip.UI.exe.config
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\Done\BattleShip\BattleShip.UI\obj\Debug\BattleShip.UI.exe
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\Done\BattleShip\BattleShip.UI\obj\Debug\BattleShip.UI.pdb

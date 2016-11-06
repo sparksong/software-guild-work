@@ -1,0 +1,5 @@
+Order#|Name|State|OrderDate|Area|Type|ProductCost|LaborCost|Tax|Total
+1|James Camerson|MN|10/16/2016|50|1|112.50|105.00|15.23|232.73
+2|Steve Irwin|MN|10/16/2016|216|2|378.00|453.00|58.21|889.81
+3|Nate Ruess|MN|10/16/2016|500|3|1750.00|2075.00|267.75|4092.75
+4|Fletcher Thomas|MN|10/16/2016|53|4|272.95|251.75|36.73|561.43

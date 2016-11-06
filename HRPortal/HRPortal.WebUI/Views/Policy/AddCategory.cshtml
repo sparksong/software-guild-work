@@ -1,0 +1,29 @@
+﻿@model HRPortal.Models.Category
+
+@{
+    ViewBag.Title = "AddCategory";
+}
+
+<h4>Add Category</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="row">
+            <div class="col-xs-12">
+                @using (Html.BeginForm())
+                {
+                    <div class="form-group">
+                        <label>Category</label>
+                        @Html.TextBoxFor(c => c.CategoryName, new { @class = "form-control", placeholder = "Category" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Category</button>
+                    @Html.ActionLink("Cancel Add", "ManageCategories", "Policy", null, new { @class = "btn btn-info" })
+                }
+            </div>
+        </div>
+    </div>
+}

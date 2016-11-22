@@ -1,0 +1,5 @@
+Version 2.0
+Refactor ideas:
+More unit testing.
+File + DB
+Responses - similar to old project. Allows better validation testing.

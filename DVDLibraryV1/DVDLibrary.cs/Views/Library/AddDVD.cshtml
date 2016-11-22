@@ -1,0 +1,102 @@
+﻿@model DVDLibrary.ViewModel.DVDListVM
+
+@{
+    ViewBag.Title = "AddDVD";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts{
+    <script>
+        document.getElementById("addActor").onclick = function () {
+            var div = document.getElementById("actorsContainer");
+            var input = document.createElement("input");
+            input.type = "text";
+            input.name = "dvd.ActorList";
+            input.id = "dvd_ActorList";
+            div.appendChild(document.createElement("br"));
+            div.appendChild(input);
+        };
+    </script>
+}
+<h2>Add a DVD to Collection</h2>
+
+@Html.ValidationSummary()
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal text-info">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dvd.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dvd.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.ReleaseYear, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dvd.ReleaseYear, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dvd.ReleaseYear, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.DirectorName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dvd.DirectorName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dvd.DirectorName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.Studio, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dvd.Studio, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dvd.Studio, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.UserRating, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dvd.UserRating, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dvd.UserRating, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.UserNotes, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dvd.UserNotes, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dvd.UserNotes, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.ActorList, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10" id="actorsContainer">
+                @Html.TextBoxFor(model => model.dvd.ActorList, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dvd.ActorList, "", new { @class = "text-danger" })
+                <input type="button" class="btn-sm btn-default" id="addActor" value="+" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dvd.MPAARating, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.dvd.MPAARating)
+                @Html.ValidationMessageFor(model => model.dvd.MPAARating, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add Movie" class="btn btn-default" />
+                @Html.ActionLink("Cancel Add", "Collection", "Library", null, new { @class = "btn btn-info" })
+            </div>
+        </div>
+    </div>
+}

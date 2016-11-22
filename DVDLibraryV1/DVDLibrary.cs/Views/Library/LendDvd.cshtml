@@ -1,0 +1,86 @@
+﻿@model DVDLibrary.ViewModel.DVDListVM
+
+@{
+    ViewBag.Title = "LendDvd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts {
+
+    <script>
+
+
+    </script>
+
+}
+
+<h2>Lend Dvd</h2>
+
+@Html.ValidationSummary()
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.dvd.DvdId)
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(model => model.dvd.Title, htmlAttributes: new { @class = "control-label" })
+            <div class="col-md-12">
+                @Html.TextBoxFor(model => model.dvd.Title, new { @readonly = true })
+
+            </div>
+        </div>
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(model => model.borrower.Name, htmlAttributes: new { @class = "control-label" })
+            <div class="col-md-12">
+                @Html.EditorFor(model => model.borrower.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.borrower.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group col-md-12">
+            <label>Lend Date: </label>
+            <div class="col-md-12">
+                @Html.TextBox("Borrow Date", DateTime.Today.ToString("MM/dd/yyyy"), htmlAttributes: new { @class = "form-control", @readonly = true })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Lend" class="btn btn-success" />
+                @Html.ActionLink("Cancel", "Collection", "Library", null, new { @class = "btn btn-info" })
+            </div>
+        </div>
+
+        <div>
+            <label> Borrower History: </label>
+        </div>
+        <table class="table-bordered">
+            <tr>
+                <th>Borrower: </th>
+                <th>Borrow Date: </th>
+                <th>Return Date: </th>
+            </tr>
+            @if (Model.dvd.BorrowerList != null && Model.dvd.BorrowerList.Count != 0)
+                {
+                    foreach (var borrower in Model.dvd.BorrowerList)
+                    {
+                    <tr>
+                        <td>@Html.TextBoxFor(b => borrower.Name, new { @readonly = true })</td>
+                        <td>@Html.TextBoxFor(b => borrower.BorrowDate, "{0:MM/dd/yyyy}", new { @readonly = true })</td>
+                        <td>@Html.TextBoxFor(b => borrower.ReturnDate, "{0:MM/dd/yyyy}", new { @readonly = true })</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">No current borrower information.</td>
+                </tr>
+            }
+        </table>
+    </div>
+}

@@ -1,0 +1,11 @@
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\DVDLibrary.DAL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\DVDLibrary.DAL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\obj\Debug\DVDLibrary.DAL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\obj\Debug\DVDLibrary.DAL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\obj\Debug\DVDLibrary.DAL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\DVDLibrary.Models.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\DVDLibrary.Models.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\Ninject.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\Ninject.xml
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\nunit.framework.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.DAL\bin\Debug\nunit.framework.xml

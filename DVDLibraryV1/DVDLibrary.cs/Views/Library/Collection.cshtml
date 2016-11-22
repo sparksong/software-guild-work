@@ -1,0 +1,193 @@
+﻿@model DVDLibrary.ViewModel.DVDListVM
+
+@{
+    ViewBag.Title = "Collection";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts{
+    <script>
+
+        $('.OpenDialog')
+            .click(function () {
+                var title = $(this).data('title');
+                var releaseyear = $(this).data('releaseyear');
+                var directorname = $(this).data('directorname');
+                var studio = $(this).data('studio');
+                var userrating = $(this).data('userrating');
+                var usernotes = $(this).data('usernotes');
+                var actors = $(this).data('actors');
+                var mpaa = $(this).data('mpaa');
+
+                $('#divModalTitle').text(title);
+                $('#divModalReleaseYear').text(releaseyear);
+                $('#divModalDirectorName').text(directorname);
+                $('#divModalStudio').text(studio);
+                $('#divModalUserRating').text(userrating);
+                $('#divModalUserNotes').text(usernotes);
+                $('#divModalActors').text(actors);
+                $('#divModalMPAA').text(mpaa);
+
+            });
+
+        function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+
+}
+<div class="container">
+
+    <h2>Collection</h2>
+
+    <div class="col-sm-4">
+        @Html.ActionLink("Add DVD", "AddDvd", "Library", null, new { @class = "btn btn-info btn-sm" })
+    </div>
+
+    <div class="col-sm-4  col-sm-offset-4">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for DVD">
+    </div>
+
+    <table class="table" id="myTable">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.dvd.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dvd.ReleaseYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dvd.DirectorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dvd.Studio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dvd.MPAARating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dvd.UserRating)
+            </th>
+
+            <th></th>
+        </tr>
+        @if (Model.DVDs.Count > 0)
+        {
+            foreach (var dvd in Model.DVDs)
+            {
+                <tr>
+                    <td id="viewLink">
+                        <a href="#" data-toggle="modal" data-target="#viewModal"
+                           data-title="@dvd.Title"
+                           data-id="@dvd.DvdId"
+                           data-releaseyear="@dvd.ReleaseYear"
+                           data-directorname="@dvd.DirectorName"
+                           data-studio="@dvd.Studio"
+                           data-userrating="@dvd.UserRating"
+                           data-usernotes="@dvd.UserNotes"
+                           data-actors="@string.Join(", ", dvd.ActorList.ToArray())"
+                           data-mpaa="@dvd.MPAARating.ToString()"
+                           class="OpenDialog">
+                            @Html.DisplayFor(d => dvd.Title)
+                        </a>
+
+                    </td>
+                    <td>
+                        @Html.DisplayFor(d => dvd.ReleaseYear)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(d => dvd.DirectorName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(d => dvd.Studio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(d => dvd.MPAARating).ToString()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(d => dvd.UserRating) / 10
+                    </td>
+                    <td>
+                        @if (dvd.CurrentBorrower == null)
+                    {
+                            @Html.ActionLink(" Lend ", "LendDVD", "Library", new { DvdId = dvd.DvdId }, new { @class = "btn btn-sm btn-success" })
+
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Return", "ReturnDVD", new { DvdId = dvd.DvdId }, new { @class = "btn btn-primary btn-sm" })
+                        }
+                    </td>
+
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td>You have no DVDs in your library. Sad.. You should add some.</td>
+            </tr>
+        }
+    </table>
+
+    <!-- View Modal -->
+    <div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">View DVD</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <label>DVD Title: </label>
+                        <p id="divModalTitle"></p>
+
+                        <label>Release Year: </label>
+                        <p id="divModalReleaseYear"></p>
+
+                        <label>Director(s): </label>
+                        <p id="divModalDirectorName"></p>
+
+                        <label>Studio: </label>
+                        <p id="divModalStudio"></p>
+
+                        <label>User Rating: </label>
+                        <p id="divModalUserRating"> /10</p>
+
+                        <label>Description: </label>
+                        <p id="divModalUserNotes"></p>
+
+                        <label>Actors: </label>
+                        <p id="divModalActors"></p>
+
+                        <label>MPAA Rating: </label>
+                        <p id="divModalMPAA"></p>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

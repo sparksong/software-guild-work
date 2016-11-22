@@ -1,0 +1,13 @@
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\DVDLibrary.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\DVDLibrary.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\DVDLibrary.DAL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\DVDLibrary.DAL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\obj\Debug\DVDLibrary.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\obj\Debug\DVDLibrary.BLL.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\obj\Debug\DVDLibrary.BLL.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\DVDLibrary.Models.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\DVDLibrary.Models.pdb
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\Ninject.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\Ninject.xml
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\nunit.framework.dll
+C:\Users\apprentice\Documents\Repositories\justin-frederiksen-individual-work\DVDLibrary\DVDLibrary.BLL\bin\Debug\nunit.framework.xml

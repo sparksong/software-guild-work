@@ -1,0 +1,31 @@
+﻿@model DVDLibrary.ViewModel.DVDListVM
+
+@{
+    ViewBag.Title = "ManageDVDs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-xs-12">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <h4>Manage a DVD</h4>
+            <div class="row">
+                @if (Model.DVDs.ToList() != null && Model.DVDs.Count != 0)
+                {
+                    using (Html.BeginForm())
+                    {
+                        <div class="form-group">
+                            @Html.DropDownListFor(d => d.dvd.DvdId, Model.DVDs.Select(d => new SelectListItem { Value = d.DvdId.ToString(), Text = d.Title }), new { @class = "form-control" })
+                        </div>
+                        <button class="btn btn-info">Manage DVD</button>
+                    }
+                }
+                else
+                {
+                    <p class="text-danger">You have no DVD's to manage!</p>
+                    @Html.ActionLink("Add One?", "AddDvd", "Library", null, new { @class = "btn btn-info" })
+                }
+            </div>
+        </div>
+    </div>
+</div>
